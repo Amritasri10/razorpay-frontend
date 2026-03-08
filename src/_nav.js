@@ -17,18 +17,10 @@ const useNav = () => {
       to: '/users',
       icon: <MdOutlineDashboard className="me-3" />,
     },
-    
-    // {
-    //   component: CNavItem,
-    //   name: 'Gallery',
-    //   to: '/gallery',
-    //   icon: <MdOutlineDashboard className="me-3" />,
-    // },
-
-    {
+    {  
       component: CNavItem,
-      name: 'Payment List',
-      to: '/payment-history',
+      name: 'Collect Payment',
+      to: '/collect-payment',
       icon: <MdOutlineDashboard className="me-3" />,
     },
   ]

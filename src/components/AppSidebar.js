@@ -12,7 +12,7 @@ import {
 
 import { AppSidebarNav } from './AppSidebarNav'
 
-import logo from '../assets/smartcollect_logo.png'
+import logo from '../assets/smart.png'
 
 
 import useNav from '../_nav'
@@ -35,7 +35,7 @@ const AppSidebar = () => {
       visible={sidebarShow}
      
     >
-      <CSidebarHeader style={{backgroundColor:"#04508A"}} className="border-bottom">
+      <CSidebarHeader style={{backgroundColor:"#F3F4F6"}} className="border-bottom">
         <CSidebarBrand style={{textAlign:"center"}} to="/">
           <img style={{ width: "70%",margin:"auto" }} src={logo} />
         </CSidebarBrand>
