@@ -35,7 +35,7 @@ const AuthFilter = ({
         </Col>
 
         {/* Type */}
-        <Col xs={24} sm={12} md={8}>
+        {/* <Col xs={24} sm={12} md={8}>
           <label style={{ display: 'block', fontWeight: 500, marginBottom: 6 }}>Account Type</label>
           <Select
             value={tempFilters.accountType}
@@ -48,7 +48,7 @@ const AuthFilter = ({
             <option value="seller">Seller</option>
          
           </Select>
-        </Col>
+        </Col> */}
 
         {/* Buttons */}
         <Col xs={24} sm={24} md={8}>

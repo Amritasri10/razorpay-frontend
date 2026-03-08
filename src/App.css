@@ -5,13 +5,13 @@
 
 .sidebar-dark {
   --cui-body-color: rgba(255, 255, 255, 0.87);
-  --cui-body-bg: #005697;
+  --cui-body-bg: #75a724;
   --cui-emphasis-color: #fff;
-  --cui-secondary-color: #005697;
-  --cui-secondary-bg: #005697;
-  --cui-tertiary-color: #005697;
+  --cui-secondary-color: #75a724;
+  --cui-secondary-bg: #75a724;
+  --cui-tertiary-color: #75a724;
   --cui-tertiary-bg: #ef4444;
-  --cui-border-color: #005697 !important;
+  --cui-border-color: #75a724 !important;
   /* border: none !important; */
 }
 
@@ -30,7 +30,15 @@
     /* z-index: var(--cui-sidebar-zindex); */
     z-index: 104 !important;
 }
- 
+.sidebar-nav .nav-link{
+  color: #75a724;
+ }
+ .sidebar-nav .nav-link.active {
+    color: #F3F4F6;
+    background: #75a724;
+}
+
+
 @media (max-width: 991.98px) {
     .sidebar-backdrop {
         position: fixed;
